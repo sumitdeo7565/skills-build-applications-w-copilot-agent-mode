@@ -28,8 +28,8 @@ DEBUG = True
 # Add CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['glorious-memory-x5pjwjxx7jrpfprx6-8000.app.github.dev', 'localhost']
 
 
 # Application definition
